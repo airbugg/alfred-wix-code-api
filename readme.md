@@ -1,6 +1,6 @@
 # alfred-wix-code-api
 
-> Easily browse [Wix Code APIs](https://www.wix.com/code/reference) from the comfort of your alfred
+> Easily browse [Wix Code APIs](https://www.wix.com/code/reference) from the comfort of your [alfred](https://www.alfredapp.com)
 
 ## Install
 
