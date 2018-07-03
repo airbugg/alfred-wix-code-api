@@ -13,7 +13,6 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava",
     "postinstall": "alfred-link",
     "preuninstall": "alfred-unlink"
   },
@@ -30,9 +29,5 @@
   "dependencies": {
     "alfred-link": "^0.2.1",
     "alfy": "^0.6.0"
-  },
-  "devDependencies": {
-    "alfy-test": "^0.3.0",
-    "xo": "^0.21.1"
   }
 }
