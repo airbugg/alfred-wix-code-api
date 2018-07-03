@@ -1,6 +1,6 @@
 {
   "name": "alfred-wix-code-api",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Easily browse Wix Code APIs from the comfort of your alfred",
   "license": "MIT",
   "repository": "airbugg/alfred-wix-code-api",
