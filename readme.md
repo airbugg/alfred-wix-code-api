@@ -1,7 +1,6 @@
-# alfred-wix-code-api [![Build Status](https://travis-ci.org/airbugg/alfred-wix-code-api.svg?branch=master)](https://travis-ci.org/airbugg/alfred-wix-code-api)
+# alfred-wix-code-api
 
-> My super module
-
+> Easily browse [Wix Code APIs](https://www.wix.com/code/reference) from the comfort of your alfred
 
 ## Install
 
@@ -9,13 +8,17 @@
 $ npm install --global alfred-wix-code-api
 ```
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+or
 
+```
+$ yarn global add alfred-wix-code-api
+```
+
+_Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/)._
 
 ## Usage
 
 In Alfred, type `wixcode`, <kbd>Enter</kbd>, and your query.
-
 
 ## License
 
