@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>wix-code-api</string>
 	<key>bundleid</key>
 	<string>com.airbugg.wix-code-api</string>
 	<key>category</key>
@@ -24,36 +22,27 @@
 			</dict>
 		</array>
 	</dict>
+	<key>createdby</key>
+	<string>Eugene Lerman</string>
+	<key>description</key>
+	<string>Wix Code API Explorer</string>
 	<key>disabled</key>
 	<false/>
+	<key>name</key>
+	<string>Wix Code API Explorer</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>BC9370FB-56E2-426C-8544-2896695744FB</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
-				<false/>
-				<key>argumenttype</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttrimmode</key>
 				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
@@ -90,18 +79,30 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BC9370FB-56E2-426C-8544-2896695744FB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>BC9370FB-56E2-426C-8544-2896695744FB</key>
-		<dict>
-			<key>xpos</key>
-			<integer>150</integer>
-			<key>ypos</key>
-			<integer>10</integer>
-		</dict>
 		<key>8FDBDFED-8C73-4DA4-A8BF-8982AAA741F4</key>
 		<dict>
 			<key>xpos</key>
@@ -109,6 +110,15 @@
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
+		<key>BC9370FB-56E2-426C-8544-2896695744FB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>150</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
 	</dict>
+	<key>webaddress</key>
+	<string>github.com/airbugg</string>
 </dict>
 </plist>
