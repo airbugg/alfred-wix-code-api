@@ -1,7 +1,7 @@
 {
   "name": "alfred-wix-code-api",
   "version": "0.0.0",
-  "description": "My super module",
+  "description": "Easily browse Wix Code APIs from the comfort of your alfred",
   "license": "MIT",
   "repository": "airbugg/alfred-wix-code-api",
   "author": {
@@ -14,8 +14,8 @@
   },
   "scripts": {
     "test": "xo && ava",
-    "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
+    "postinstall": "alfred-link",
+    "preuninstall": "alfred-unlink"
   },
   "files": [
     "index.js",
@@ -28,11 +28,11 @@
     "alfy"
   ],
   "dependencies": {
+    "alfred-link": "^0.2.1",
     "alfy": "^0.6.0"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0",
-    "ava": "^0.18.0",
-    "xo": "^0.17.0"
+    "xo": "^0.21.1"
   }
 }
